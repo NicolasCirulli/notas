@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(231, 239, 246);
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100vh;
+}
+.section-form{
+    height: fit-content !important;
+}
+.overflow-notas{
+    overflow-y: scroll;
+    flex-grow: 1;
+    max-height: 90vh;
+}
+.radius{
+    border-radius: .7rem;
+}
+.overflow-notas::-webkit-scrollbar {
+    width: .7rem;
+    background-color: rgb(102, 139, 215);
+    border-radius: 1rem;
+    margin: 0;
+    padding: 10px 0;
+}
+.overflow-notas::-webkit-scrollbar-thumb{
+    background-color: rgb(102, 139, 215);
+    border-radius: 1rem;
+}
+
+.overflow-notas::-webkit-scrollbar-track{
+    background-color: rgb(199, 199, 199);
+    border-radius: 1rem;
+}
+.article-nota{
+    max-height: 50% !important;
+}
+.max-w-75{
+    max-width: 75% !important;
+}
